@@ -50,7 +50,7 @@ export default {
         </h1>
       </div>
     </div>
-    <div class="flex justify-between ml-32">
+    <div class="flex justify-center">
       <img src="../img/logo.svg" alt="pinia" class="active:scale-110 duration-200" @mouseup="showWeather" @mouseenter="showWeatherCard" @mouseout="hideWeatherCard">
     </div>
     <div class="bg-blue-50 w-64 h-40 absolute bottom-96 left-96 rounded-3xl p-3" :class="{display:display}">
